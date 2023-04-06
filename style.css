@@ -1154,3 +1154,9 @@ div {
         font-size: 8pt;
     }
 }
+
+@media (max-height: 800px) {
+    .b-6-f-11 li{
+        font-size: 10pt;
+    }
+}
