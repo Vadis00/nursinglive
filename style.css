@@ -1,11 +1,12 @@
 @font-face {
     font-family: 'Euclid Circular M';
-    src: url('./fonts/Euclid\ Circular\ A\ Medium.ttf') format('truetype');
+    src: url('./fonts/Euclid Circular A Medium.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Euclid Circular';
-    src: url('./fonts/Euclid\ Circular\ A\ Regular.ttf') format('truetype');
+    src: url('./fonts/Euclid Circular A Regular.ttf') format('truetype');
+
 }
 
 .onepage-pagination {
@@ -838,6 +839,9 @@ div {
 .block-6-background-green p {
     padding: 10px;
     text-align: center;
+}
+.block-4 .main-content .li-11 li{
+    font-size: 11pt !important;
 }
 
 .yellow {
