@@ -211,12 +211,12 @@ div {
 
 .row p {
     max-width: 55%;
-    font-size: 15pt;
+    
     font-weight: 500;
 }
 
 .row p:last-child {
-    font-size: 28px;
+ 
 }
 
 .block-2-header {
@@ -233,7 +233,7 @@ div {
     align-items: center;
     padding-left: 10px;
     line-height: 1.2;
-    font-size: 18px;
+    
     color: white;
     font-family: 'Euclid Circular M', sans-serif;
 }
@@ -243,32 +243,32 @@ div {
 }
 
 .block-2-text-16 {
-    font-size: 16pt;
+    
     font-family: 'Euclid Circular M', sans-serif;
 }
 
 .block-2-text-14 {
-    font-size: 14pt;
+    
     font-family: 'Euclid Circular M', sans-serif;
 }
 
 .block-2-text-15 {
-    font-size: 15pt;
+    
     font-family: 'Euclid Circular M', sans-serif;
 }
 
 .block-2-text-12 {
-    font-size: 15pt;
+    
     font-family: 'Euclid Circular M', sans-serif;
 }
 
 .text-footer {
-    font-size: 12pt;
+    
     font-family: 'Euclid Circular M', sans-serif;
 }
 
 .block-2-text-10 {
-    font-size: 12pt;
+    
     margin-top: 0;
 }
 
@@ -317,13 +317,13 @@ div {
 
 .block-3-table .row .cell span {
     display: flex;
-    font-size: 10pt;
+    
     padding: 10px;
     color: white
 }
 
 .block-3-table .row .cell span:first-child {
-    font-size: 10pt;
+    
     width: 12%;
     align-items: start;
 }
@@ -349,23 +349,23 @@ div {
 }
 
 .block-2-ul li {
-    font-size: 12pt;
+    
 }
 
 .block-4-ul li {
-    font-size: 11pt;
+    
 }
 
 .block-2-footer {
     flex-shrink: 0;
     padding-bottom: 30px;
     width: 100%;
-    font-size: 10pt !important;
+    
 
 }
 
 .block-2-footer .block-2-wrapper .block-2-text-wrapper .row div {
-    font-size: 10pt;
+    
 }
 
 .block-2-img-wrapper img {
@@ -398,7 +398,7 @@ div {
 
 .block-2-text-wrapper .row div {
     color: black;
-    font-size: 12pt;
+    
 }
 
 .block-2-line {
@@ -426,7 +426,7 @@ div {
     align-items: center;
     padding-left: 10px;
     line-height: 1.2;
-    font-size: 18pt;
+    
     color: white;
     font-family: 'Euclid Circular M', sans-serif;
     margin-top: -5px;
@@ -492,7 +492,7 @@ div {
     right: 20px;
     color: white;
     max-width: 45%;
-    font-size: 15pt;
+    
     font-family: 'Euclid Circular M', sans-serif;
 }
 
@@ -504,7 +504,7 @@ div {
     align-items: center;
     padding-left: 10px;
     line-height: 1.2;
-    font-size: 18px;
+    
     color: white;
     font-family: 'Euclid Circular M', sans-serif;
 }
@@ -517,7 +517,7 @@ div {
     align-items: center;
     padding-left: 30px;
     line-height: 1.2;
-    font-size: 16pt;
+    
     color: white;
     font-family: 'Euclid Circular M', sans-serif;
     padding: 20px;
@@ -531,7 +531,7 @@ div {
     align-items: center;
     padding-left: 30px;
     line-height: 1.2;
-    font-size: 16pt;
+    
     color: white;
     font-family: 'Euclid Circular M', sans-serif;
     padding: 20px;
@@ -546,7 +546,7 @@ div {
     align-items: center;
     padding-left: 30px;
     line-height: 1.2;
-    font-size: 16pt;
+    
     color: white;
     font-family: 'Euclid Circular M', sans-serif;
     padding: 20px;
@@ -561,7 +561,7 @@ div {
     align-items: center;
     padding-left: 30px;
     line-height: 1.2;
-    font-size: 16pt;
+    
     color: white;
     font-family: 'Euclid Circular M', sans-serif;
     padding: 20px;
@@ -576,7 +576,7 @@ div {
     align-items: center;
     padding-left: 30px;
     line-height: 1.2;
-    font-size: 16pt;
+    
     color: white;
     font-family: 'Euclid Circular M', sans-serif;
     padding: 20px;
@@ -584,14 +584,14 @@ div {
 }
 
 .block-19 .main-content .block-2-text-16 {
-    font-size: 15pt;
+    
     padding: 0;
     padding-top: 10px;
 }
 
 
 .block-19 .main-content .block-2-text-14 {
-    font-size: 13pt;
+    
     padding: 0 !important;
 }
 
@@ -841,7 +841,7 @@ div {
     text-align: center;
 }
 .block-4 .main-content .li-11 li{
-    font-size: 11pt !important;
+    
 }
 
 .yellow {
@@ -884,7 +884,34 @@ div {
     margin: 20px 0;
 }
 
+.font-title {
+    font-size: 24px;
+}
 
+.font-medium {
+    font-size: 18px; /* 14pt */
+}
+
+.font-small {
+    font-size: 14px;
+}
+
+
+.font-big {
+    font-size: 20px; 	/* 16pt */
+}
+
+.block-2-footer{
+    font-size: 14px;
+}
+
+.font-15 {
+    font-size: 17px;
+}
+
+.font-28 {
+    font-size: 30px;
+}
 
 @media (max-width: 600px) {
     .top {
@@ -920,12 +947,12 @@ div {
     }
 
     .row .circular{
-        font-size: 12pt;
+        
         text-align: center;
     }
 
     .top .image-caption .row .circular-m:first-child {
-        font-size: 12pt;
+        
         max-width: 80%;
         text-align: center;
         padding-top: 30px;
@@ -938,27 +965,27 @@ div {
 
 
     .top .image-caption .row .circular-m:last-child {
-        font-size: 18px;
+        
     }
 
     .block-2-text-10 {
-        font-size: 10pt;
+        
     }
 
     .block-2-text-14 {
-        font-size: 11pt;
+        
     }
 
     .block-2-text-16 {
-        font-size: 13pt;
+        
     }
 
     .block-2-ul li {
-        font-size: 10pt;
+        
     }
 
     .block-3-table .row .cell span:last-child {
-        font-size: 11px;
+        
     }
 
     .block-2-footer{
@@ -984,52 +1011,52 @@ div {
     }
 
     .block-2-footer .block-2-wrapper .block-2-text-wrapper .row div {
-        font-size: 8pt;
+        
     }
 
     .block-4-title {
-        font-size: 12pt;
+        
         padding: 5px;
     }
 
     .block-4 .main-content .block-2-text-16{
-        font-size: 10pt;
+        
         margin: 0;
     }
 
     .block-4 .main-content .block-2-text-13{
-        font-size: 9pt;
+        
     }
 
     .block-4 .main-content .block-2-ul li{
-        font-size: 8pt;
+        
     }
 
 
     .block-7 .block-7-title {
-        font-size: 11pt;
+        
     }
 
     .block-7 .block-2-wrapper-text .block-2-text-16 {
-        font-size: 12pt;
+        
     }
 
     .block-7 .block-9-title {
-        font-size: 12pt;
+        
         padding: 10px;
     }
 
     .block-7 .block-2-wrapper-text .block-2-text-16 {
-        font-size: 10pt;
+        
     }
 
     .block-7 .block-2-wrapper-text .block-2-text-14 {
-        font-size: 10pt;
+        
     }
 
 
     .block-7 .block-2-wrapper-text .block-6-row .cell ul li {
-        font-size: 8pt;
+        
     }
 
     .block-7 .block-2-wrapper-text .line {
@@ -1037,62 +1064,62 @@ div {
     }
 
     .block-11 .main-content .block-2-text-16 {
-        font-size: 11pt !important;
+        
     }
     .block-11 .block-10-row .block-10-title {
-        font-size: 11pt;
+        
         height: 40px;
     }
 
     .block-11 .main-content .block-2-text-15 {
-        font-size: 9pt;
+        
     }
 
     .block-11 .main-content .block-2-text-1 {
-        font-size: 10pt;
+        
     }
 
     .block-11 .main-content .block-2-text-12 {
-        font-size: 10pt;
+        
     }
 
     .block-11 .main-content .block-2-text-10 {
-        font-size: 8pt;
+        
     }
 
     .block-11 .main-content ul li {
-        font-size: 8pt !important;
+        
     }
 
     .block-11 .main-content .block-6-background-yellow p {
-        font-size: 10pt;
+        
     }
 
     .block-11 .block-10-row .block-11-title {
-        font-size: 12pt;
+        
     }
 
     .block-11 .main-content .block-2-text-16 {
-        font-size: 12pt;
+        
     }
 
     .small-txt-12 li {
-        font-size: 10pt !important;
+        
     }
 
     .block-19 .block-19-row .block-13-title {
-        font-size: 12pt;
+        
     }
 
     .block-19 .main-content .block-2-text-16 {
-        font-size: 11pt;
+        
         padding: 0;
         padding-top: 10px;
     }
 
     
     .block-19 .main-content .block-2-text-14 {
-        font-size: 11pt;
+        
         padding: 0 !important;
     }
     .block-19 .main-content .line{
@@ -1100,14 +1127,14 @@ div {
         margin: 10px 0;
     }
     .block-19 .main-content .block-4-ul li {
-        font-size: 9pt;
+        
     }
 
     .block-19 .main-content .block-4-ul  {
       margin: 0;
     }
     .block-16 .block-16-row .block-13-wrapper .cell .block-6-img-wrapper .text {
-        font-size: 13pt;
+        
         right: 160px;
         max-width: 40%;
     }
@@ -1143,20 +1170,236 @@ div {
     }
 
     .section>.small-block>div.main-content>ul>li {
-        font-size: 8pt;
+        
     }
 
     .section>.small-block>div.main-content>div>div>ul>li {
-        font-size: 8pt;
+        
     }
 
     .section>.small-block>div.main-content>div>div>ul>ul>li {
-        font-size: 8pt;
+        
     }
 }
 
 @media (max-height: 800px) {
     .b-6-f-11 li{
-        font-size: 10pt;
+        
     }
 }
+
+@media (min-width: 1000px) and (min-height: 900px) {
+    .font-title {
+        font-size: 26px;
+    }
+    
+    .font-medium {
+        font-size: 20px; /* 14pt */
+    }
+    
+    .font-small {
+        font-size: 16px;
+    }
+       
+    .font-big {
+        font-size: 22px; 	/* 16pt */
+    }
+    
+    .block-2-footer{
+        font-size: 14px;
+    }
+    
+    .font-15 {
+        font-size: 19px;
+    }
+    
+    .font-28 {
+        font-size: 32px;
+    }
+  }
+
+  @media (max-width: 1000px) and (max-height: 800px) {
+    .font-medium {
+        font-size: 17px; /* 14pt */
+    }
+    
+    .font-small {
+        font-size: 13px;
+    }
+    
+    .block-2-footer{
+        font-size: 13px;
+    }
+    
+    .font-big {
+        font-size: 19px; 	/* 16pt */
+    }
+    
+  }
+
+  @media (max-width: 900px), (max-height: 750px) {
+
+    .font-title {
+        font-size: 20px;
+    }
+    .font-medium {
+        font-size: 16px; /* 14pt */
+    }
+    
+    .font-small {
+        font-size: 14px;
+    }
+
+    .block-2-footer{
+        font-size: 14px;
+    }
+    
+    .big-text{
+        font-size: 13px;
+    }
+
+    .big-text-medium{
+        font-size: 15px; /* 14pt */
+    }
+    
+    .font-big {
+        font-size: 18px; 	/* 16pt */
+    }
+
+    .big-text-big{
+        font-size: 17px; 	/* 16pt */
+    }
+
+    .big-text-title{
+        font-size: 18px; 	/* 16pt */
+    }
+    
+  }
+
+
+  @media (max-width: 725px), (max-height: 700px) {
+
+    .font-title {
+        font-size: 19px;
+    }
+    .font-medium {
+        font-size: 15px; /* 14pt */
+    }
+    
+    .font-small {
+        font-size: 13px;
+    }
+
+    .block-2-footer{
+        font-size: 13px;
+    }
+    
+    .big-text{
+        font-size: 12px;
+    }
+
+    .big-text-medium{
+        font-size: 14px; /* 14pt */
+    }
+    
+    .font-big {
+        font-size: 17px; 	/* 16pt */
+    }
+
+    .big-text-big{
+        font-size: 16px; 	/* 16pt */
+    }
+
+    .big-text-title{
+        font-size: 17px; 	/* 16pt */
+    }
+    
+  }
+
+  @media (max-width: 400px), (max-height: 650px) {
+
+    .font-28{
+        margin-top: 0;
+    }
+    .font-title {
+        font-size: 16px;
+    }
+    .font-medium {
+        font-size: 13px; /* 14pt */
+    }
+    
+    .font-small {
+        font-size: 11px;
+    }
+
+    .block-2-footer{
+        font-size: 11px;
+    }
+    
+    .big-text{
+        font-size: 10px;
+    }
+
+    .big-text-medium{
+        font-size: 12px; /* 14pt */
+    }
+    
+    .font-big {
+        font-size: 15px; 	/* 16pt */
+    }
+
+    .big-text-big{
+        font-size: 14px; 	/* 16pt */
+    }
+
+    .big-text-title{
+        font-size: 15px; 	/* 16pt */
+    }
+    
+  }
+
+  @media (max-width: 330px), (max-height: 600px) {
+
+    .font-title {
+        font-size: 15px;
+    }
+    .font-medium {
+        font-size: 12px; /* 14pt */
+    }
+    
+    .font-small {
+        font-size: 10px;
+    }
+    .block-2-footer{
+        font-size: 10px;
+    }
+    
+    .big-text{
+        font-size: 9px;
+    }
+
+    .big-text-medium{
+        font-size: 11px; /* 14pt */
+    }
+    
+    .font-big {
+        font-size: 14px; 	/* 16pt */
+    }
+
+    .big-text-big{
+        font-size: 13px; 	/* 16pt */
+    }
+
+    .big-text-title{
+        font-size: 14px; 	/* 16pt */
+    }
+    
+  }
+
+
+
+  .showScreenSize{
+    position: absolute;
+    top: 0;
+    z-index: 2121;
+  }
