@@ -24,6 +24,10 @@ body {
     background: #f7f5f2;
 }
 
+section {
+    padding-bottom: 40px;
+}
+
 a {
     color: inherit;
     /* blue colors for links too */
@@ -42,8 +46,6 @@ div {
 
 .conteiner {
     max-width: 700px;
-    height: 100vh !important;
-    max-height: 10 !important;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -52,10 +54,16 @@ div {
 
 .top {
     max-height: 100%;
-
+    width: 700px;
+    max-width: 70%;
     display: flex;
 
     flex-direction: column;
+}
+
+.main-title{
+ 
+    padding-top: 20px !important;
 }
 
 .bottom {
@@ -67,8 +75,9 @@ div {
 }
 
 .img {
-    height: 70%;
-    width: auto;
+   
+    width: 700px;
+    max-width: 100%;
     object-fit: scale-down;
 
 }
@@ -78,9 +87,9 @@ div {
 }
 
 .image-caption {
-    position: absolute;
+    padding-top: 40px;
     bottom: 0px;
-    width: 100%;
+    width: 70%;
     HEIGHT: 30%;
     display: flex;
     flex-direction: column;
@@ -100,7 +109,7 @@ div {
 
 .triangle-bottom {
     position: absolute;
-    bottom: 30%;
+    bottom: 0;
     right: 0;
     width: 35%;
     height: 30%;
@@ -324,8 +333,12 @@ div {
 
 .block-3-table .row .cell span:first-child {
     
-    width: 12%;
+    width: 15%;
     align-items: start;
+}
+
+.three-table .cell{
+    align-items: center;
 }
 
 .block-3-table .row .cell span:last-child {
@@ -358,7 +371,7 @@ div {
 
 .block-2-footer {
     flex-shrink: 0;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     width: 100%;
     
 
@@ -762,6 +775,7 @@ div {
 .block-16-row {
     height: 70vh;
     overflow: hidden;
+    max-width: 100%;
 }
 
 .block-16-logo-wrapper {
@@ -857,7 +871,8 @@ div {
 }
 
 .circular{
-    font-family: 'Euclid Circular', sans-serif;
+    font-family: 'Euclid Circular M', sans-serif;
+    font-size: 14px !important;
 }
 
 .circular-m {
@@ -903,7 +918,13 @@ div {
 
 .block-2-footer{
     font-size: 14px;
+    margin-top: 50px;
 }
+
+.btn-margin{
+    margin: 60px  0!important;
+}
+
 
 .font-15 {
     font-size: 17px;
@@ -937,6 +958,8 @@ div {
 
     .top .image-caption .logo-wrapper .logo {
         max-width: 60%;
+        
+
     }
 
     /*  fix two */
@@ -1165,10 +1188,19 @@ div {
 }
 
 @media (max-width: 450px) {
-    .small-block .block-6-row .cell .block-6-img-wrapper {
-        display: none;
+    .block-6-img-wrapper {
+       max-width: 100% !important;
     }
 
+    .block-6-img-wrapper .text{
+      right: 15px !important;
+      max-width: 55% !important;
+     }
+
+     .footer-2-wrapper{
+        margin: 10px;
+        padding: 0px;
+     }
     .section>.small-block>div.main-content>ul>li {
         
     }
@@ -1318,6 +1350,22 @@ div {
 
   @media (max-width: 400px), (max-height: 650px) {
 
+    .logo{
+        margin: auto;
+    }
+
+    .main-title{
+        flex-direction: column !important;
+        padding: 0;
+    }
+
+    .circular {
+        font-size: 13px;
+    }
+    .image-caption{
+        width: 100%;
+    }
+
     .font-28{
         margin-top: 0;
     }
@@ -1329,7 +1377,11 @@ div {
     }
     
     .font-small {
-        font-size: 11px;
+        font-size: 13px;
+    }
+
+    .row-1, .row-2, .row-3 {
+        height: 70px !important;
     }
 
     .block-2-footer{
